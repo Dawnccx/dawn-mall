@@ -1,0 +1,15 @@
+server:
+  port: 8085
+hm:
+  db:
+    database: hm-cart
+  swagger:
+    title: "黑马交易服务接口文档"
+    package: com.hmall.trade.controller
+spring:
+  rabbitmq:
+    host: 192.168.214.128 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: /hmall # 虚拟主机
+    username: hmall # 用户名
+    password: 123 # 密码
